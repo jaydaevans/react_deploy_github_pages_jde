@@ -1,0 +1,17 @@
+#addStudent {
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 5px #000;
+  border: thin solid black;
+  padding: 5em;
+  color: green;
+  margin: 2em;
+}
+
+#btnAdd {
+  background-color: #96D177;
+  color: green;
+}
+
+#addStudent, .add, #fileUpload {
+  background-color: white;
+}
