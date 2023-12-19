@@ -2,7 +2,7 @@
   "name": "react-final",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jaydaevans.github.io/react_deploy_github_pages_jde",
+  "homepage": "https://jaydaevans.github.io/final-project",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
