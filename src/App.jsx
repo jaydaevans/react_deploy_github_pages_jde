@@ -91,21 +91,21 @@ function App() {
     firstName: "Janice",
     lastName: "Patrick",
     email: "jpatrick@rufus.com",
-    image: '/images/student1.jpg',
+    image: './images/student1.jpg',
     gradYear: 2000
   }, {
     id:nanoid(),
     firstName: "Austin ",
     lastName: "Grand",
     email: "agrand@auto.com",
-    image: '/images/student2.jpg',
+    image: '/assets/images/student2.jpg',
     gradYear: 2000
   }, {
     id:nanoid(),
     firstName: "Jocko",
     lastName: "Brownhill",
     email: "jbrownhill2@twitpic.com",
-    image: '/images/student3.jpg',
+    image: './images/student3.jpg',
     gradYear: 2001
   }, {
     id:nanoid(),
@@ -119,42 +119,42 @@ function App() {
     firstName: "Norry",
     lastName: "Harp",
     email: "nharp4@microsoft.com",
-    image: '/images/student5.jpg',
+    image: './images/student5.jpg',
     gradYear: 2002
   }, {
     id:nanoid(),
     firstName: "Godfrey",
     lastName: "Hardi",
     email: "ghardi5@edublogs.org",
-    image: '/images/student6.jpg',
+    image: './images/student6.jpg',
     gradYear: 2002
   }, {
     id:nanoid(),
     firstName: "Dacia",
     lastName: "Crosfeld",
     email: "dcrosfeld6@businessweek.com",
-    image: '/images/student7.jpg',
+    image: './images/student7.jpg',
     gradYear: 2003
   }, {
     id:nanoid(),
     firstName: "Hollyanne",
     lastName: "Dring",
     email: "hdring7@acquirethisname.com",
-    image: '/images/student8.jpg',
+    image: './images/student8.jpg',
     gradYear: 2003
   }, {
     id:nanoid(),
     firstName: "Dorelia",
     lastName: "Sibley",
     email: "dsibley8@blinklist.com",
-    image: '/images/student9.jpg',
+    image: './images/student9.jpg',
     gradYear: 2004
   }, {
     id:nanoid(),
     firstName: "Missie",
     lastName: "Thaine",
     email: "mthaine9@umich.edu",
-    image: '/images/student10.jpg',
+    image: './images/student10.jpg',
     gradYear: 2004
   }];
 
