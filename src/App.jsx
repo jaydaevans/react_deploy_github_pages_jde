@@ -88,18 +88,18 @@ function App() {
 
   const students = [{
     id:nanoid(),
-    firstName: "The Amazing World of Gumball",
-    lastName: "Cartoon Network",
-    email: "6 seasons",
-    image: '/images/cartoon1.jpg',
-    gradYear: 2011
+    firstName: "Janice",
+    lastName: "Patrick",
+    email: "jpatrick@rufus.com",
+    image: '/images/student1.jpg',
+    gradYear: 2000
   }, {
     id:nanoid(),
-    firstName: "Uncle Grandpa",
-    lastName: "Cartoon network",
-    email: "5 seasons",
-    image: '/images/cartoon2.webp',
-    gradYear: 2010
+    firstName: "Austin ",
+    lastName: "Grand",
+    email: "agrand@auto.com",
+    image: '/images/student2.jpg',
+    gradYear: 2000
   }, {
     id:nanoid(),
     firstName: "Jocko",
@@ -154,7 +154,7 @@ function App() {
     firstName: "Missie",
     lastName: "Thaine",
     email: "mthaine9@umich.edu",
-    //image: //'/images/student10.jpg',
+    image: '/images/student10.jpg',
     gradYear: 2004
   }];
 
@@ -163,7 +163,7 @@ function App() {
 
    <div className='container'>
     <div className='row' id="allStudents">
-      <h2 className='text-center mb-4'>Current Shows</h2>
+      <h2 className='text-center mb-4'>Current Students</h2>
       {searchResults && searchResults.map((student) => 
       (
         <div className='col-md-2' key={student.id} id="cards">
@@ -177,9 +177,9 @@ function App() {
     {/* {!allStudents && <button type="button" className='btn btn-lg btn-success' onClick={() => saveStudents(students)}>Save Students</button>} */}
     <AddStudent addStudent={addStudent} />
     <div className='row mt-4' id="searchStudents">
-      <h3>Search Cartoons</h3>
+      <h3>Search Students</h3>
         <div className='search col-md-4'>
-          <label htmlFor='txtKeywords'>Search by Title, Company, or Year</label>
+          <label htmlFor='txtKeywords'>Search by First Name or Last Name</label>
           <input type='text' className='form-control' placeholder='Search' onChange={evt => setKeywords(evt.currentTarget.value)} value={keywords} />
         </div>
         <div className='search col-md-4'>
@@ -189,7 +189,7 @@ function App() {
           </select>
         </div>
         <div className='search col-md-4'>
-          <button type='button' className='btn btn-info' id="searchBtn" onClick={searchStudents}>Search Cartoons <FontAwesomeIcon icon={faSearch} className='bg-transparent'/></button>
+          <button type='button' className='btn btn-info' id="searchBtn" onClick={searchStudents}>Search Students <FontAwesomeIcon icon={faSearch} className='bg-transparent'/></button>
         </div>
     </div>
    </div>

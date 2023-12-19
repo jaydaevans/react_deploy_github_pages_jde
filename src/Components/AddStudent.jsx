@@ -22,30 +22,30 @@ function AddStudent(props) {
     }
   return (
     <div className='row mt-5' id="addStudent">
-      <h3>Add a Cartoon</h3>
+      <h3>Add a Student</h3>
       <div className='add col-md-2'>
-        <label htmlFor='txtFirstName' className='form-label'>Title</label>
-        <input type="text" id="txtFirstName" placeholder='Title' className='form-control' onChange={(evt) => setFirstName(evt.currentTarget.value)} value={firstName} />
+        <label htmlFor='txtFirstName' className='form-label'>First Name</label>
+        <input type="text" id="txtFirstName" placeholder='First Name' className='form-control' onChange={(evt) => setFirstName(evt.currentTarget.value)} value={firstName} />
       </div>
       <div className='add col-md-2'>
-        <label htmlFor='txtLastName' className='form-label'>Company</label>
-        <input type="text" id="txtLastName" placeholder='Company' className='form-control' onChange={(evt) => setLastName(evt.currentTarget.value)} value={lastName} />
+        <label htmlFor='txtLastName' className='form-label'>Last Name</label>
+        <input type="text" id="txtLastName" placeholder='Last Name' className='form-control' onChange={(evt) => setLastName(evt.currentTarget.value)} value={lastName} />
       </div>
       <div className='add col-md-2'>
-        <label htmlFor='txtEmail' className='form-label'>&#8470; seasons</label>
-        <input type="email" id="txtEmail" placeholder='Seasons' className='form-control' onChange={(evt) => setEmail(evt.currentTarget.value)} value={email} />
+        <label htmlFor='txtEmail' className='form-label'>Email</label>
+        <input type="email" id="txtEmail" placeholder='Email' className='form-control' onChange={(evt) => setEmail(evt.currentTarget.value)} value={email} />
       </div>
       <div className="add col-md-2">
-        <label htmlFor='txtGradYear' className='form-label'>Release Year</label>
-        <input type="text" id="txtGradYear" placeholder='Release Year' className='form-control' onChange={(evt) => setGradYear(evt.currentTarget.value)} value={gradYear} />
+        <label htmlFor='txtGradYear' className='form-label'>Graduation Year</label>
+        <input type="text" id="txtGradYear" placeholder='Graduation Year' className='form-control' onChange={(evt) => setGradYear(evt.currentTarget.value)} value={gradYear} />
       </div>
       <div className='add col-md-2'>
-        <label htmlFor='fileUpload' className='form-label'>Cartoon Image</label>
+        <label htmlFor='fileUpload' className='form-label'>Student Image</label>
         <input type="file" name="file" id="fileUpload" onChange={imageUpdate} />
       </div>
       
       <div className='add col-md-4 mt-4'>
-        <button type="button" id="btnAdd" className='btn btn-success btn-lg' onClick={doWork}>Add Cartoon <FontAwesomeIcon icon={faPlusCircle} className='bg-transparent'/></button>
+        <button type="button" id="btnAdd" className='btn btn-success btn-lg' onClick={doWork}>Add Student <FontAwesomeIcon icon={faPlusCircle} className='bg-transparent'/></button>
         
       </div>
     </div>
